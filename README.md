@@ -6,8 +6,8 @@ margin: 0;
 padding: 0;
 
 - navbar
-- div class "navbar"
+- div class "nav"
   - div class "logo"
-  - div class "links"
+  - div
     ul
     three a with ids
