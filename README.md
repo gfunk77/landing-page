@@ -11,3 +11,13 @@ padding: 0;
   - div
     ul
     three a with ids
+
+Header:
+div class "header"
+
+- div class "hero"
+  - h1 class heading-1
+  - p
+  - button class btn-1
+- div class img
+  - image

@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 body {
   background: #f3faeb;
@@ -37,4 +37,55 @@ a {
   text-decoration: none;
   text-transform: capitalize;
   color: #000;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero {
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+.img {
+  padding: 1.5rem;
+  margin: 1.5rem;
+}
+.welcome {
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  margin-bottom: 1rem;
+}
+.btn-1 {
+  background: #b5c99a;
+  padding: 4px 8px;
+  border: 2px solid #718355;
+  border-radius: 5px;
+}
+.items-section {
+  background: #f1f5f9;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  gap: 3rem;
+  text-align: center;
+}
+.item {
+  /* border: 2px solid #b5c99a; */
+  border-radius: 5px;
+  padding: 2rem;
+}
+.item i {
+  margin-bottom: 2rem;
+}
+.heading-2 {
+  text-align: center;
+  background-color: #f1f5f9;
+  padding-top: 5rem;
+  font-size: larger;
 }
