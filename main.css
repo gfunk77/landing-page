@@ -76,7 +76,6 @@ a {
   text-align: center;
 }
 .item {
-  /* border: 2px solid #b5c99a; */
   border-radius: 5px;
   padding: 2rem;
 }
@@ -88,4 +87,44 @@ a {
   background-color: #f1f5f9;
   padding-top: 5rem;
   font-size: larger;
+}
+.text {
+  width: 800px;
+  margin: auto;
+  padding: 5rem 10rem;
+  font-style: italic;
+  font-size: large;
+}
+.text p {
+  padding: 1rem 3rem;
+}
+h6 {
+  text-align: center;
+}
+.contact {
+  background-color: #f1f5f9;
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 600px;
+  background-color: #b5c99a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 3rem;
+  border: 2px solid #718355;
+  border-radius: 5px;
+}
+.btn-2 {
+  background: #f3faeb;
+  padding: 4px 8px;
+  border: 2px solid #718355;
+  border-radius: 5px;
+}
+.footer {
+  padding: 2rem;
+  text-align: center;
 }
